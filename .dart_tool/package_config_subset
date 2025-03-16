@@ -134,6 +134,10 @@ provider
 2.12
 file:///C:/Users/amroh/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.1.2/
 file:///C:/Users/amroh/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.1.2/lib/
+sizer
+2.12
+file:///C:/Users/amroh/AppData/Local/Pub/Cache/hosted/pub.dev/sizer-3.0.5/
+file:///C:/Users/amroh/AppData/Local/Pub/Cache/hosted/pub.dev/sizer-3.0.5/lib/
 source_span
 3.1
 file:///C:/Users/amroh/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.1/
@@ -180,8 +184,8 @@ file:///C:/Users/amroh/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.5.0/
 file:///C:/Users/amroh/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.5.0/lib/
 dalil_project
 3.7
-file:///C:/Users/amroh/OneDrive/Desktop/Hackovate/Dalil/
-file:///C:/Users/amroh/OneDrive/Desktop/Hackovate/Dalil/lib/
+file:///C:/Users/amroh/OneDrive/Desktop/Dalil/
+file:///C:/Users/amroh/OneDrive/Desktop/Dalil/lib/
 sky_engine
 3.7
 file:///C:/src/flutter/bin/cache/pkg/sky_engine/

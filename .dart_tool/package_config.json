@@ -224,6 +224,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "sizer",
+      "rootUri": "file:///C:/Users/amroh/AppData/Local/Pub/Cache/hosted/pub.dev/sizer-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -302,7 +308,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-03-14T23:24:19.269377Z",
+  "generated": "2025-03-16T19:28:02.928289Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///C:/src/flutter",

@@ -20,7 +20,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => di.sl<StudyResourceBloc>()..add(GetStudyRecoursesByCourseIdEvent(courseId: '1')),
+      create:
+          (context) =>
+              di.sl<StudyResourceBloc>()
+                ..add(GetStudyRecoursesByCourseIdEvent(courseId: '1')),
       child: MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(primarySwatch: Colors.blue),
@@ -43,7 +46,7 @@ class MyApp2 extends StatelessWidget {
             if (state is LoadedStudyResourceState) {
               return Text(state.studyResources[0].descreption);
             }
-            if(state is EmptyStudyResourceState){
+            if (state is EmptyStudyResourceState) {
               return Text('empty');
             }
             return CircularProgressIndicator();

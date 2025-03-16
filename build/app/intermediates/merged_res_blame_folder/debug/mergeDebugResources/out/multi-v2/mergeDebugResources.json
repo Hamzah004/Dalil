@@ -320,7 +320,7 @@
             "outputFile": "com.example.dalil_project.app-debug-26:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\amroh\\OneDrive\\Desktop\\Hackovate\\Dalil\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\amroh\\OneDrive\\Desktop\\Dalil\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -875,6 +875,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\amroh\\OneDrive\\Desktop\\Dalil\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "155,159",
+                        "startColumns": "4,4",
+                        "startOffsets": "7894,8075",
+                        "endLines": "158,161",
+                        "endColumns": "12,12",
+                        "endOffsets": "8070,8239"
+                    }
+                },
+                {
                     "source": "C:\\Users\\amroh\\.gradle\\caches\\8.10.2\\transforms\\e0d9d3675465ff69d847e2f781f20c61\\transformed\\jetified-startup-runtime-1.1.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -961,25 +980,6 @@
                         "startOffsets": "6991",
                         "endColumns": "53",
                         "endOffsets": "7040"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\amroh\\OneDrive\\Desktop\\Hackovate\\Dalil\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "155,159",
-                        "startColumns": "4,4",
-                        "startOffsets": "7894,8075",
-                        "endLines": "158,161",
-                        "endColumns": "12,12",
-                        "endOffsets": "8070,8239"
                     }
                 },
                 {

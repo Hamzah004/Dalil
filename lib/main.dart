@@ -1,3 +1,4 @@
+import 'package:dalil_project/core/screens/signup_view.dart';
 import 'package:dalil_project/core/screens/splash_screen.dart';
 import 'package:dalil_project/features/study_resource/presentation/bloc/study_resource_bloc.dart';
 import 'package:flutter/material.dart';

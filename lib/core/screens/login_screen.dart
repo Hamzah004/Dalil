@@ -1,3 +1,4 @@
+import 'package:dalil_project/core/screens/signup_view.dart';
 import 'package:dalil_project/resources/assets_manager.dart';
 import 'package:dalil_project/resources/colors_manager.dart';
 import 'package:dalil_project/resources/fonts_manager.dart';
@@ -300,9 +301,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
-                              // Navigator.of(context).push(MaterialPageRoute(
-                              //   builder: (context) => const LoginScreen2(),
-                              // ));
+                              Navigator.of(context).push(MaterialPageRoute(
+                                builder: (context) => const SignupView(),
+                              ));
                             },
                         ),
                       ]),

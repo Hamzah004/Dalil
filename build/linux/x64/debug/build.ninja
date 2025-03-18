@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/hamzah/Dalil/build/linux/x64/debug/
+cmake_ninja_workdir = /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug && /usr/bin/cmake --regenerate-during-build -S/home/hamzah/Dalil/linux -B/home/hamzah/Dalil/build/linux/x64/debug
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug && /usr/bin/cmake --regenerate-during-build -S/home/hamzah/hackathon_project/Dalil/linux -B/home/hamzah/hackathon_project/Dalil/build/linux/x64/debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -74,7 +74,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -86,7 +86,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -98,7 +98,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -107,21 +107,21 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/hamzah/Dalil/linux/CMakeLists.txt
+# /home/hamzah/hackathon_project/Dalil/linux/CMakeLists.txt
 # =============================================================================
 
 
 #############################################
 # Utility command for flutter_assemble
 
-build flutter/flutter_assemble: phony flutter/CMakeFiles/flutter_assemble /home/hamzah/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_
+build flutter/flutter_assemble: phony flutter/CMakeFiles/flutter_assemble /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_
 
 
 #############################################
 # Utility command for edit_cache
 
 build flutter/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -132,7 +132,7 @@ build flutter/edit_cache: phony flutter/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build flutter/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake --regenerate-during-build -S/home/hamzah/Dalil/linux -B/home/hamzah/Dalil/build/linux/x64/debug
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake --regenerate-during-build -S/home/hamzah/hackathon_project/Dalil/linux -B/home/hamzah/hackathon_project/Dalil/build/linux/x64/debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -150,7 +150,7 @@ build flutter/list_install_components: phony
 # Utility command for install
 
 build flutter/CMakeFiles/install.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -162,7 +162,7 @@ build flutter/install: phony flutter/CMakeFiles/install.util
 # Utility command for install/local
 
 build flutter/CMakeFiles/install/local.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -174,7 +174,7 @@ build flutter/install/local: phony flutter/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build flutter/CMakeFiles/install/strip.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -185,20 +185,20 @@ build flutter/install/strip: phony flutter/CMakeFiles/install/strip.util
 #############################################
 # Phony custom command for flutter/CMakeFiles/flutter_assemble
 
-build flutter/CMakeFiles/flutter_assemble | ${cmake_ninja_workdir}flutter/CMakeFiles/flutter_assemble: phony /home/hamzah/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/flutter_linux.h
+build flutter/CMakeFiles/flutter_assemble | ${cmake_ninja_workdir}flutter/CMakeFiles/flutter_assemble: phony /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/flutter_linux.h
 
 
 #############################################
-# Custom command for /home/hamzah/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so
+# Custom command for /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so
 
-build /home/hamzah/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_ | ${cmake_ninja_workdir}flutter/_phony_: CUSTOM_COMMAND
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -E env FLUTTER_ROOT=/home/hamzah/development/flutter PROJECT_DIR=/home/hamzah/Dalil DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=/home/hamzah/Dalil/.dart_tool/package_config.json FLUTTER_TARGET=/home/hamzah/Dalil/lib/main.dart /home/hamzah/development/flutter/packages/flutter_tools/bin/tool_backend.sh linux-x64 Debug
-  DESC = Generating /home/hamzah/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_engine.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_call.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_response.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_value.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/fl_view.h, /home/hamzah/Dalil/linux/flutter/ephemeral/flutter_linux/flutter_linux.h, _phony_
+build /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_ | ${cmake_ninja_workdir}flutter/_phony_: CUSTOM_COMMAND
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/flutter && /usr/bin/cmake -E env FLUTTER_ROOT=/home/hamzah/development/flutter PROJECT_DIR=/home/hamzah/hackathon_project/Dalil DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=/home/hamzah/hackathon_project/Dalil/.dart_tool/package_config.json FLUTTER_TARGET=/home/hamzah/hackathon_project/Dalil/lib/main.dart /home/hamzah/development/flutter/packages/flutter_tools/bin/tool_backend.sh linux-x64 Debug
+  DESC = Generating /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_engine.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_call.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_method_response.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_value.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/fl_view.h, /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/flutter_linux/flutter_linux.h, _phony_
   restat = 1
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/hamzah/Dalil/linux/CMakeLists.txt
+# /home/hamzah/hackathon_project/Dalil/linux/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -210,35 +210,29 @@ build /home/hamzah/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/h
 
 build cmake_object_order_depends_target_dalil_project: phony || flutter/flutter_assemble
 
-build runner/CMakeFiles/dalil_project.dir/main.cc.o: CXX_COMPILER__dalil_project_Debug /home/hamzah/Dalil/linux/runner/main.cc || cmake_object_order_depends_target_dalil_project
+build runner/CMakeFiles/dalil_project.dir/main.cc.o: CXX_COMPILER__dalil_project_Debug /home/hamzah/hackathon_project/Dalil/linux/runner/main.cc || cmake_object_order_depends_target_dalil_project
   DEFINES = -DAPPLICATION_ID=\"com.example.dalil_project\"
   DEP_FILE = runner/CMakeFiles/dalil_project.dir/main.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I/home/hamzah/Dalil/linux -I/home/hamzah/Dalil/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/fribidi -isystem /usr/include/cairo -isystem /usr/include/pixman-1 -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include
+  INCLUDES = -I/home/hamzah/hackathon_project/Dalil/linux -I/home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/fribidi -isystem /usr/include/cairo -isystem /usr/include/pixman-1 -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include
   OBJECT_DIR = runner/CMakeFiles/dalil_project.dir
   OBJECT_FILE_DIR = runner/CMakeFiles/dalil_project.dir
-  TARGET_COMPILE_PDB = runner/CMakeFiles/dalil_project.dir/
-  TARGET_PDB = intermediates_do_not_run/dalil_project.pdb
 
-build runner/CMakeFiles/dalil_project.dir/my_application.cc.o: CXX_COMPILER__dalil_project_Debug /home/hamzah/Dalil/linux/runner/my_application.cc || cmake_object_order_depends_target_dalil_project
+build runner/CMakeFiles/dalil_project.dir/my_application.cc.o: CXX_COMPILER__dalil_project_Debug /home/hamzah/hackathon_project/Dalil/linux/runner/my_application.cc || cmake_object_order_depends_target_dalil_project
   DEFINES = -DAPPLICATION_ID=\"com.example.dalil_project\"
   DEP_FILE = runner/CMakeFiles/dalil_project.dir/my_application.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I/home/hamzah/Dalil/linux -I/home/hamzah/Dalil/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/fribidi -isystem /usr/include/cairo -isystem /usr/include/pixman-1 -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include
+  INCLUDES = -I/home/hamzah/hackathon_project/Dalil/linux -I/home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/fribidi -isystem /usr/include/cairo -isystem /usr/include/pixman-1 -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include
   OBJECT_DIR = runner/CMakeFiles/dalil_project.dir
   OBJECT_FILE_DIR = runner/CMakeFiles/dalil_project.dir
-  TARGET_COMPILE_PDB = runner/CMakeFiles/dalil_project.dir/
-  TARGET_PDB = intermediates_do_not_run/dalil_project.pdb
 
-build runner/CMakeFiles/dalil_project.dir/__/flutter/generated_plugin_registrant.cc.o: CXX_COMPILER__dalil_project_Debug /home/hamzah/Dalil/linux/flutter/generated_plugin_registrant.cc || cmake_object_order_depends_target_dalil_project
+build runner/CMakeFiles/dalil_project.dir/__/flutter/generated_plugin_registrant.cc.o: CXX_COMPILER__dalil_project_Debug /home/hamzah/hackathon_project/Dalil/linux/flutter/generated_plugin_registrant.cc || cmake_object_order_depends_target_dalil_project
   DEFINES = -DAPPLICATION_ID=\"com.example.dalil_project\"
   DEP_FILE = runner/CMakeFiles/dalil_project.dir/__/flutter/generated_plugin_registrant.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I/home/hamzah/Dalil/linux -I/home/hamzah/Dalil/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/fribidi -isystem /usr/include/cairo -isystem /usr/include/pixman-1 -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include
+  INCLUDES = -I/home/hamzah/hackathon_project/Dalil/linux -I/home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/fribidi -isystem /usr/include/cairo -isystem /usr/include/pixman-1 -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include
   OBJECT_DIR = runner/CMakeFiles/dalil_project.dir
   OBJECT_FILE_DIR = runner/CMakeFiles/dalil_project.dir/__/flutter
-  TARGET_COMPILE_PDB = runner/CMakeFiles/dalil_project.dir/
-  TARGET_PDB = intermediates_do_not_run/dalil_project.pdb
 
 
 # =============================================================================
@@ -248,23 +242,21 @@ build runner/CMakeFiles/dalil_project.dir/__/flutter/generated_plugin_registrant
 #############################################
 # Link the executable intermediates_do_not_run/dalil_project
 
-build intermediates_do_not_run/dalil_project: CXX_EXECUTABLE_LINKER__dalil_project_Debug runner/CMakeFiles/dalil_project.dir/main.cc.o runner/CMakeFiles/dalil_project.dir/my_application.cc.o runner/CMakeFiles/dalil_project.dir/__/flutter/generated_plugin_registrant.cc.o | /home/hamzah/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/x86_64-linux-gnu/libgtk-3.so /usr/lib/x86_64-linux-gnu/libgdk-3.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /usr/lib/x86_64-linux-gnu/libpango-1.0.so /usr/lib/x86_64-linux-gnu/libharfbuzz.so /usr/lib/x86_64-linux-gnu/libatk-1.0.so /usr/lib/x86_64-linux-gnu/libcairo-gobject.so /usr/lib/x86_64-linux-gnu/libcairo.so /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so /usr/lib/x86_64-linux-gnu/libgio-2.0.so /usr/lib/x86_64-linux-gnu/libgobject-2.0.so /usr/lib/x86_64-linux-gnu/libglib-2.0.so || flutter/flutter_assemble
+build intermediates_do_not_run/dalil_project: CXX_EXECUTABLE_LINKER__dalil_project_Debug runner/CMakeFiles/dalil_project.dir/main.cc.o runner/CMakeFiles/dalil_project.dir/my_application.cc.o runner/CMakeFiles/dalil_project.dir/__/flutter/generated_plugin_registrant.cc.o | /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/x86_64-linux-gnu/libgtk-3.so /usr/lib/x86_64-linux-gnu/libgdk-3.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /usr/lib/x86_64-linux-gnu/libpango-1.0.so /usr/lib/x86_64-linux-gnu/libharfbuzz.so /usr/lib/x86_64-linux-gnu/libatk-1.0.so /usr/lib/x86_64-linux-gnu/libcairo-gobject.so /usr/lib/x86_64-linux-gnu/libcairo.so /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so /usr/lib/x86_64-linux-gnu/libgio-2.0.so /usr/lib/x86_64-linux-gnu/libgobject-2.0.so /usr/lib/x86_64-linux-gnu/libglib-2.0.so || flutter/flutter_assemble
   FLAGS = -g
-  LINK_LIBRARIES = -Wl,-rpath,/home/hamzah/Dalil/linux/flutter/ephemeral:  -lflutter_linux_gtk  /usr/lib/x86_64-linux-gnu/libgtk-3.so  /usr/lib/x86_64-linux-gnu/libgdk-3.so  /usr/lib/x86_64-linux-gnu/libz.so  /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so  /usr/lib/x86_64-linux-gnu/libpango-1.0.so  /usr/lib/x86_64-linux-gnu/libharfbuzz.so  /usr/lib/x86_64-linux-gnu/libatk-1.0.so  /usr/lib/x86_64-linux-gnu/libcairo-gobject.so  /usr/lib/x86_64-linux-gnu/libcairo.so  /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so  /usr/lib/x86_64-linux-gnu/libgio-2.0.so  /usr/lib/x86_64-linux-gnu/libgobject-2.0.so  /usr/lib/x86_64-linux-gnu/libglib-2.0.so
-  LINK_PATH = -L/home/hamzah/Dalil/linux/flutter/ephemeral
+  LINK_LIBRARIES = -Wl,-rpath,/home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral:  /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib/x86_64-linux-gnu/libgtk-3.so  /usr/lib/x86_64-linux-gnu/libgdk-3.so  /usr/lib/x86_64-linux-gnu/libz.so  /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so  /usr/lib/x86_64-linux-gnu/libpango-1.0.so  /usr/lib/x86_64-linux-gnu/libharfbuzz.so  /usr/lib/x86_64-linux-gnu/libatk-1.0.so  /usr/lib/x86_64-linux-gnu/libcairo-gobject.so  /usr/lib/x86_64-linux-gnu/libcairo.so  /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so  /usr/lib/x86_64-linux-gnu/libgio-2.0.so  /usr/lib/x86_64-linux-gnu/libgobject-2.0.so  /usr/lib/x86_64-linux-gnu/libglib-2.0.so
   OBJECT_DIR = runner/CMakeFiles/dalil_project.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = runner/CMakeFiles/dalil_project.dir/
   TARGET_FILE = intermediates_do_not_run/dalil_project
-  TARGET_PDB = intermediates_do_not_run/dalil_project.pdb
+  TARGET_PDB = dalil_project.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build runner/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -275,7 +267,7 @@ build runner/edit_cache: phony runner/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build runner/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake --regenerate-during-build -S/home/hamzah/Dalil/linux -B/home/hamzah/Dalil/build/linux/x64/debug
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake --regenerate-during-build -S/home/hamzah/hackathon_project/Dalil/linux -B/home/hamzah/hackathon_project/Dalil/build/linux/x64/debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -293,7 +285,7 @@ build runner/list_install_components: phony
 # Utility command for install
 
 build runner/CMakeFiles/install.util: CUSTOM_COMMAND runner/all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -305,7 +297,7 @@ build runner/install: phony runner/CMakeFiles/install.util
 # Utility command for install/local
 
 build runner/CMakeFiles/install/local.util: CUSTOM_COMMAND runner/all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -317,7 +309,7 @@ build runner/install/local: phony runner/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build runner/CMakeFiles/install/strip.util: CUSTOM_COMMAND runner/all
-  COMMAND = cd /home/hamzah/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/runner && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -337,21 +329,21 @@ build flutter_assemble: phony flutter/flutter_assemble
 # =============================================================================
 
 #############################################
-# Folder: /home/hamzah/Dalil/build/linux/x64/debug
+# Folder: /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug
 
 build all: phony flutter/all runner/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/hamzah/Dalil/build/linux/x64/debug/flutter
+# Folder: /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/flutter
 
 build flutter/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /home/hamzah/Dalil/build/linux/x64/debug/runner
+# Folder: /home/hamzah/hackathon_project/Dalil/build/linux/x64/debug/runner
 
 build runner/all: phony intermediates_do_not_run/dalil_project
 
@@ -362,14 +354,14 @@ build runner/all: phony intermediates_do_not_run/dalil_project
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/hamzah/Dalil/linux/CMakeLists.txt /home/hamzah/Dalil/linux/flutter/CMakeLists.txt /home/hamzah/Dalil/linux/flutter/ephemeral/generated_config.cmake /home/hamzah/Dalil/linux/flutter/generated_plugins.cmake /home/hamzah/Dalil/linux/runner/CMakeLists.txt /usr/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.25/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.25/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang.cmake /usr/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/GNU.cmake /usr/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.25/Modules/FindPackageMessage.cmake /usr/share/cmake-3.25/Modules/FindPkgConfig.cmake /usr/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.25/Modules/Platform/Linux.cmake /usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/hamzah/hackathon_project/Dalil/linux/CMakeLists.txt /home/hamzah/hackathon_project/Dalil/linux/flutter/CMakeLists.txt /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/generated_config.cmake /home/hamzah/hackathon_project/Dalil/linux/flutter/generated_plugins.cmake /home/hamzah/hackathon_project/Dalil/linux/runner/CMakeLists.txt /usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang.cmake /usr/share/cmake-3.25/Modules/Compiler/GNU.cmake /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.25/Modules/FindPackageMessage.cmake /usr/share/cmake-3.25/Modules/FindPkgConfig.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.25/Modules/Platform/Linux.cmake /usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/hamzah/Dalil/linux/CMakeLists.txt /home/hamzah/Dalil/linux/flutter/CMakeLists.txt /home/hamzah/Dalil/linux/flutter/ephemeral/generated_config.cmake /home/hamzah/Dalil/linux/flutter/generated_plugins.cmake /home/hamzah/Dalil/linux/runner/CMakeLists.txt /usr/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.25/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.25/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang.cmake /usr/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/GNU.cmake /usr/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.25/Modules/FindPackageMessage.cmake /usr/share/cmake-3.25/Modules/FindPkgConfig.cmake /usr/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.25/Modules/Platform/Linux.cmake /usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake: phony
+build /home/hamzah/hackathon_project/Dalil/linux/CMakeLists.txt /home/hamzah/hackathon_project/Dalil/linux/flutter/CMakeLists.txt /home/hamzah/hackathon_project/Dalil/linux/flutter/ephemeral/generated_config.cmake /home/hamzah/hackathon_project/Dalil/linux/flutter/generated_plugins.cmake /home/hamzah/hackathon_project/Dalil/linux/runner/CMakeLists.txt /usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake-3.25/Modules/Compiler/Clang.cmake /usr/share/cmake-3.25/Modules/Compiler/GNU.cmake /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.25/Modules/FindPackageMessage.cmake /usr/share/cmake-3.25/Modules/FindPkgConfig.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.25/Modules/Platform/Linux.cmake /usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake: phony
 
 
 #############################################

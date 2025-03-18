@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 
 class FontConstants {
   static const String englishFontFamily = 'MaShanZheng';
@@ -15,12 +16,10 @@ class FontWeightManager {
 }
 
 class FontSize {
-  static const double s12 = 12;
-  static const double s14 = 14;
-  static const double s16 = 16;
-  static const double s17 = 17;
-  static const double s18 = 18;
-  static const double s20 = 20;
-  static const double s22 = 22;
-  static const double s110 = 110;
+  static double defaultValue = 10.sp;
+  static double s60 = 60.sp;
+  static double s37 = 37.sp;
+  static double s43 = 43.sp;
+  static double s21= 21.sp;
+  static double s16 = 16.5.sp;
 }

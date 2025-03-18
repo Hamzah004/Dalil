@@ -23,7 +23,7 @@ class LoadedStudyResourceState extends StudyResourceState {
 class ErrorStudyResourceState extends StudyResourceState {
   final String message;
 
-  ErrorStudyResourceState({required this.message});
+  const ErrorStudyResourceState({required this.message});
 
   @override
   List<Object> get props => [message];

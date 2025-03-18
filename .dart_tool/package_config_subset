@@ -62,6 +62,10 @@ ffi
 3.7
 file:///home/hamzah/.pub-cache/hosted/pub.dev/ffi-2.1.4/
 file:///home/hamzah/.pub-cache/hosted/pub.dev/ffi-2.1.4/lib/
+flutter_animate
+2.17
+file:///home/hamzah/.pub-cache/hosted/pub.dev/flutter_animate-4.5.2/
+file:///home/hamzah/.pub-cache/hosted/pub.dev/flutter_animate-4.5.2/lib/
 flutter_bloc
 2.14
 file:///home/hamzah/.pub-cache/hosted/pub.dev/flutter_bloc-9.1.0/
@@ -70,6 +74,10 @@ flutter_lints
 3.5
 file:///home/hamzah/.pub-cache/hosted/pub.dev/flutter_lints-5.0.0/
 file:///home/hamzah/.pub-cache/hosted/pub.dev/flutter_lints-5.0.0/lib/
+flutter_shaders
+2.19
+file:///home/hamzah/.pub-cache/hosted/pub.dev/flutter_shaders-0.1.3/
+file:///home/hamzah/.pub-cache/hosted/pub.dev/flutter_shaders-0.1.3/lib/
 get_it
 3.0
 file:///home/hamzah/.pub-cache/hosted/pub.dev/get_it-8.0.3/
@@ -222,10 +230,6 @@ xml
 3.2
 file:///home/hamzah/.pub-cache/hosted/pub.dev/xml-6.5.0/
 file:///home/hamzah/.pub-cache/hosted/pub.dev/xml-6.5.0/lib/
-dalil_project
-3.7
-file:///home/hamzah/Dalil/
-file:///home/hamzah/Dalil/lib/
 sky_engine
 3.7
 file:///home/hamzah/development/flutter/bin/cache/pkg/sky_engine/
@@ -242,4 +246,8 @@ flutter_web_plugins
 3.7
 file:///home/hamzah/development/flutter/packages/flutter_web_plugins/
 file:///home/hamzah/development/flutter/packages/flutter_web_plugins/lib/
+dalil_project
+3.7
+file:///home/hamzah/hackathon_project/Dalil/
+file:///home/hamzah/hackathon_project/Dalil/lib/
 2

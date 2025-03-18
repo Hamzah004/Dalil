@@ -1,5 +1,7 @@
+import 'package:dalil_project/core/screens/splash_screen.dart';
 import 'package:dalil_project/features/study_resource/presentation/bloc/study_resource_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 import 'injection_container.dart' as di;
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -19,16 +21,22 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create:
-          (context) =>
-              di.sl<StudyResourceBloc>()
-                ..add(GetStudyRecoursesByCourseIdEvent(courseId: '1')),
-      child: MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(primarySwatch: Colors.blue),
-        home: MyApp2(),
-      ),
+    return Sizer(
+      builder: (context, orientation, deviceType) {
+        return BlocProvider(
+          create:
+              (context) =>
+          di.sl<StudyResourceBloc>()
+            ..add(GetStudyRecoursesByCourseIdEvent(courseId: '1')),
+          child: MaterialApp(
+            debugShowCheckedModeBanner: false,
+            title: 'Flutter Demo',
+            theme: ThemeData(primarySwatch: Colors.blue),
+            home: SplashScreen(),
+          ),
+        );
+      },
+
     );
   }
 }

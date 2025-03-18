@@ -4,7 +4,6 @@ import 'package:sizer/sizer.dart';
 class FontConstants {
   static const String englishFontFamily = 'MaShanZheng';
   static const String arabicFontFamily = 'ArabicTypesetting';
-
 }
 
 class FontWeightManager {

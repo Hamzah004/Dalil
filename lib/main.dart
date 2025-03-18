@@ -1,5 +1,6 @@
-import 'package:dalil_project/core/screens/splash_screen.dart';
+import 'package:dalil_project/core/screens/splash/splash_view.dart';
 import 'package:dalil_project/features/study_resource/presentation/bloc/study_resource_bloc.dart';
+import 'package:dalil_project/resources/theme_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 import 'injection_container.dart' as di;
@@ -31,8 +32,8 @@ class _MyAppState extends State<MyApp> {
           child: MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Flutter Demo',
-            theme: ThemeData(primarySwatch: Colors.blue),
-            home: SplashScreen(),
+            theme: getApplicationTheme(),
+            home: SplashView(),
           ),
         );
       },

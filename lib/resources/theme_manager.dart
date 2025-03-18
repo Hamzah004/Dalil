@@ -1,7 +1,42 @@
-// import 'package:dalil_project/resources/style_manager.dart';
-// import 'package:flutter/material.dart';
-// import 'colors_manager.dart';
-// import 'fonts_manager.dart';
+import 'package:dalil_project/resources/style_manager.dart';
+import 'package:flutter/material.dart';
+import 'colors_manager.dart';
+import 'fonts_manager.dart';
+
+ThemeData getApplicationTheme() {
+  return ThemeData(
+    // Elevated Button Theme
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: ColorManager.primaryColor,
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.all(Radius.circular(5)),
+        ),
+      ),
+    ),
+
+    // Text Field Theme
+    inputDecorationTheme: InputDecorationTheme(
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: ColorManager.primaryColor),
+        borderRadius: BorderRadius.circular(10),
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10),
+        borderSide: BorderSide(color: ColorManager.mediumGray),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10),
+        borderSide: BorderSide(color: ColorManager.red),
+      ),
+      focusedErrorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10),
+        borderSide: BorderSide(color: ColorManager.red),
+      ),
+    ),
+  );
+}
+
 //
 // ThemeData getApplicationTheme() {
 //   return ThemeData(

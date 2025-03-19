@@ -162,7 +162,7 @@ class _SignupView extends State<SignupView> {
                     focusedErrorBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                       borderSide: BorderSide(color: ColorManager.red),
-                    ),
+                    ),  
                     labelText: 'Arabic Name*',
                     labelStyle: GoogleFonts.faustina(
                       fontSize: 16.sp,

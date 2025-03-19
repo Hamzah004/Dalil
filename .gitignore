@@ -1,2 +1,70 @@
-.dart_tool/
+# Flutter build & dependency files
 build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Android-related files
+android/.gradle/
+android/.idea/
+android/captures/
+android/local.properties
+android/**/gradle-wrapper.jar
+android/**/GeneratedPluginRegistrant.java
+
+# iOS-related files
+ios/.generated/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/flutter_assets/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Pods/
+ios/profile
+ios/xcuserdata/
+ios/Podfile.lock
+
+# IntelliJ/VS Code/IDE-specific files
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# Logs & temporary files
+*.log
+*.tmp
+*.sqlite
+*.sql
+*.swp
+.history
+.svn/
+
+# Executables & compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.bin
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archive & compressed files (optional)
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
